@@ -1,4 +1,4 @@
-name: CI
+   name: CI
 
    on:
      push:
@@ -29,6 +29,6 @@ name: CI
          - name: Upload Build Artifact
            uses: actions/upload-artifact@v3
            with:
-             name: app-debug.apk
-             path: app/build/outputs/apk/debug/app-debug.apk
-   
+            name: app-debug.apk
+            path: app/build/outputs/apk/debug/app-debug.apk
+
